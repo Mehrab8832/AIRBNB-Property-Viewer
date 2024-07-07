@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=StatisticsBox
+comment0.text=\ Models\ the\r\n\ statistics\ boxes\r\n\ in\ the\ statistics\ window.\r\n\r\n\ Create\ and\ array\ of\ StatisticsBox\r\n\ in\ the\ controller\ class\ and\ loop\ over\ them.\r\n
+comment1.params=
+comment1.target=StatisticsBox()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=givenTitle
+comment2.target=void\ setTitle(java.lang.String)
+comment3.params=givenValue
+comment3.target=void\ setValue(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getTitle()
+comment5.params=
+comment5.target=java.lang.String\ getValue()
+numComments=6

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=WelcomePageController
+comment1.params=priceRangeDisplay
+comment1.target=void\ redisplay(java.lang.String)
+numComments=2

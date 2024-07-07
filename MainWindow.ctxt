@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MainWindow
+comment0.text=\r\n\ The\ main\ window\ class\ controls\ the\ initialisation\ of\ the\ entire\ application\r\n\r\n\ @author\ Nikita\r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ The\ start\ method\ is\ the\ main\ entry\ point\ for\ this\ AirBNB\ Listing\ application.\r\n\r\n\ @param\ \ stage\ the\ primary\ stage\ for\ this\ application.\r\n
+numComments=2

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=RandomEntryDisplayController
+comment0.text=\r\n\ This\ class\ controls\ the\ window\ that\ displays\ a\ random\ entry\ on\ click\ of\ a\ button\r\n\ in\ the\ fourth\ panel.\r\n\r\n\ @authors\ Nikita\r\n\ @version\ 05.04.2021\r\n
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=hostnameText\ neighbourhoodText\ roomTypeText\ descriptionText\ priceText\ minNightsText
+comment2.target=void\ populateTextValues(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.text=\r\n\ Assigns\ values\ to\ the\ text\ boxes\ to\ be\ displayed.\r\n
+comment3.params=
+comment3.target=void\ tryAgainButtonPressed()
+comment3.text=\r\n\ Changes\ the\ displayed\ values\ to\ values\ from\ a\ new\ random\ listing\r\n
+comment4.params=
+comment4.target=void\ setHostImage()
+comment4.text=\r\n\ Sets\ the\ imageView\ image\ to\ an\ image\ from\ thispersondoesnotexist.com\r\n\ \ needs\ an\ internet\ connection\ to\ work\ properly\r\n
+numComments=5

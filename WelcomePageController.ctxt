@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WelcomePageController
+comment0.text=\r\n\ This\ class\ controls\ the\ welcome\ panel\r\n\r\n\ @authors\ Mehrab\r\n\ @version\ 05.04.2021\r\n
+comment1.params=priceRangeDisplay
+comment1.target=void\ redisplay(java.lang.String)
+comment1.text=\r\n\ This\ method\ changes\ the\ value\ displayed\ in\ the\ price\r\n\ rane\ text\ field\ according\ to\ the\ value\ that\ is\ passed\ into\ it.\r\n\ @param\ priceRangeDisplay\ new\ price\ range\ to\ be\ displayed.\r\n
+numComments=2

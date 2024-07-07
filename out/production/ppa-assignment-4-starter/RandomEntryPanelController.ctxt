@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=RandomEntryPanelController
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=e
+comment2.target=void\ handle(javafx.event.ActionEvent)
+comment3.params=
+comment3.target=void\ displayRandomListing()
+numComments=4

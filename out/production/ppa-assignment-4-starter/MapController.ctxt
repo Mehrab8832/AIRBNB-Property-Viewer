@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=MapController
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=listingsByBorough\ fromPrice\ toPrice
+comment2.target=void\ highlightPriceRangeBoroughs(java.util.HashMap,\ int,\ int)
+comment2.text=\r\n\ This\ method\ is\ called\ in\ MainWindowController\ whenever\ the\ user\ navigates\ to\ the\ borough\ map\ panel.\r\n\ it\ highlights\ each\ borough\ red\ or\ green\ depending\ on\ the\ number\ of\ available\ properties\ in\ that\ borough\ (\r\n\ the\ number\ of\ available\ properties\ is\ depends\ on\ the\ 'from'\ and\ 'to'\ values\ a\ user\ has\ selected).\r\n\ @param\ listingsByBorough\ A\ hashmap\ with\ keys\ as\ boroughs\ and\ values\ as\ properties\ of\ that\ borough.\r\n\ @param\ fromPrice\ spinner\ from\ price\ value\ selected\ by\ the\ user\r\n\ @param\ toPrice\ spinner\ to\ price\ value\ selected\ by\ the\ user\r\n
+comment3.params=event
+comment3.target=void\ boroughClick(javafx.event.ActionEvent)
+comment3.text=\r\n\ The\ borough\ click\ method\ stores\ the\ borough\ pressed\ by\ a\ user\ using\ SceneBuilder\ id\ values\ set\ to\ the\ name\r\n\ of\ each\ borough.\r\n\ @param\ event\r\n\ @throws\ Exception\r\n
+comment4.params=
+comment4.target=void\ openPropertyWindow()
+comment4.text=\r\n\ After\ pressing\ one\ of\ the\ borough's\ buttons\ and\ calling\ the\ boroughClick\ method,\ the\ openPropertyWindow\ method\r\n\ is\ called\ which\ creates\ a\ tableView\ object\ and\ displays\ to\ the\ user\ all\ available\ properties\ within\ the\ spec-\r\n\ ified\ price\ range\ within\ the\ selected\ borough.\ The\ borough's\ name\ appears\ at\ the\ title\ of\ the\ window.\r\n\ @throws\ Exception\r\n
+comment5.params=
+comment5.target=java.util.ArrayList\ sorter()
+comment5.text=\r\n\ Sorts\ the\ ArrayList\ of\ properties\ in\ the\ selected\ borough\ by\ returning\ another\ ArrayList\ that\ holds\ only\ those\r\n\ properties\ which\ are\ within\ the\ specified\ price\ range.\r\n\ @return\r\n
+comment6.params=
+comment6.target=void\ createSpecificPropertyView()
+comment6.text=\r\n\ As\ detailed\ in\ the\ openPropertyWindow\ method,\ this\ createSpecificPropertyView\ method\ is\ called\ when\ a\ user\r\n\ wants\ to\ look\ at\ a\ specific\ property\ in\ the\ list\ shown.\r\n\ @throws\ Exception\r\n
+comment7.params=
+comment7.target=AirbnbListing\ getRowData()
+comment7.text=\r\n\ Returns\ a\ specific\ Airbnb\ listing\ 'row'\ in\ the\ table\ of\ properties\ shown\ to\ a\ user.\r\n\ @return\ Returns\ one\ listing\r\n
+numComments=8

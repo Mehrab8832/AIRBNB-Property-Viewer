@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="578.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RandomEntryDisplayController">
+   <children>
+      <Text fx:id="hostnameText" layoutX="270.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="239.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="neighbourhoodText" layoutX="270.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="239.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="descriptionText" layoutX="270.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="239.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="neighbourhoodLabel" layoutX="111.0" layoutY="97.0" text="Neighbourhood:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="neighbourhoodLabel1" layoutX="114.0" layoutY="159.0" text="Description:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="neighbourhoodLabel2" layoutX="113.0" layoutY="300.0" text="Host Name:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel" layoutX="113.0" layoutY="354.0" text="Price:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Text fx:id="priceText" layoutX="270.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="239.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="minNightsText" layoutX="270.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="239.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="neighbourhoodLabel31" layoutX="114.0" layoutY="413.0" text="Minimum nights:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="tryAgainButton" layoutX="364.0" layoutY="490.0" mnemonicParsing="false" onAction="#tryAgainButtonPressed" prefHeight="53.0" prefWidth="146.0" text="Try again...">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Text fx:id="roomTypeText" layoutX="270.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="239.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="neighbourhoodLabel11" layoutX="111.0" layoutY="250.0" text="Room type:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="hostImage" fitHeight="251.0" fitWidth="230.0" layoutX="600.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="588.0" layoutY="371.0" prefHeight="21.0" prefWidth="224.0" text="AI Generated photo of the owner ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="635.0" layoutY="403.0" text="(could be inaccurate)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

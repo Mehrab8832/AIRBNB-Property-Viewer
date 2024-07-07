@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=RandomEntryDisplayController
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=hostnameText\ neighbourhoodText\ roomTypeText\ descriptionText\ priceText\ minNightsText
+comment2.target=void\ populateTextValues(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment3.params=
+comment3.target=void\ tryAgainButtonPressed()
+comment4.params=
+comment4.target=void\ setHostImage()
+numComments=5

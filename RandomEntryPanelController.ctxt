@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=RandomEntryPanelController
+comment0.text=\r\n\ This\ class\ controls\ the\ fourth\ panel\ with\ the\ random\ listing\ button.\r\n\r\n\ @authors\ Nikita\r\n\ @version\ 05.04.2021\r\n
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=e
+comment2.target=void\ handle(javafx.event.ActionEvent)
+comment3.params=
+comment3.target=void\ displayRandomListing()
+comment3.text=\r\n\ Opens\ a\ new\ window\ with\ information\ about\ a\ randomly\ selected\ listing.\r\n
+numComments=4
